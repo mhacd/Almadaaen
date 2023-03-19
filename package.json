@@ -1,6 +1,14 @@
 {
+  "name": "almadaaen",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@7.28.0",
+  "author": {
+    "name": "Mohammad Al Hallaq",
+    "username": "moHaHa",
+    "github": "https://github.com/moHaHa",
+    "email": "eng.mohammad.alhallaq@gmail.com"
+  },
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
