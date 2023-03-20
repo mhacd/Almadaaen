@@ -1,6 +1,9 @@
 <template>
   <HeroLayout />
   <div bg-white p-xl>
+    <WhoWeAreTypography />
+  </div>
+  <div bg-white p-xl>
     <TheCard />
   </div>
   <div bg-white p-xl>

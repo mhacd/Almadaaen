@@ -22,5 +22,6 @@ declare module '@vue/runtime-core' {
     TheHeader: typeof import('./src/components/TheHeader.vue')['default']
     TheImageCard: typeof import('./src/components/TheImageCard.vue')['default']
     TheInput: typeof import('./src/components/TheInput.vue')['default']
+    WhoWeAreTypography: typeof import('./src/components/WhoWeAreTypography.vue')['default']
   }
 }

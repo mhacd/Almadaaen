@@ -32,6 +32,8 @@ export default defineConfig({
       'bg-card': 'bg-#E5E5E5',
       'txt-black': 'text-#707070',
       'txt-blue': 'text-#509AEB',
+      'txt-line': 'text-#0856A2',
+      'bg-line': 'bg-#0856A2',
     },
   ],
   presets: [
