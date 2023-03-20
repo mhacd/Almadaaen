@@ -10,6 +10,7 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     HeroBg: typeof import('./src/components/HeroBg.vue')['default']
+    HeroBgContent: typeof import('./src/components/HeroBgContent.vue')['default']
     Link: typeof import('./src/components/Link.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

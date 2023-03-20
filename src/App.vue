@@ -1,8 +1,6 @@
 <template>
   <HeroBg>
-    <div p-lg full>
-      <div full bg-gray op-12 />
-    </div>
+    <HeroBgContent />
   </HeroBg>
   <div bg-white p-xl>
     <TheCard />
