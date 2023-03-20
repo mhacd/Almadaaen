@@ -1,7 +1,20 @@
 <template>
   <HeroLayout />
-  <div bg-white p-xl>
-    <WhoWeAreTypography />
+  <div bg-white>
+    <div max-w-1400px mx-auto px-lg>
+      <div flex py-40px>
+        <div w="30%">
+          <WhoWeAreTypography />
+        </div>
+        <div flex-1>
+          <div flex fb w-full gap-30px>
+            <TheCard />
+            <TheCard />
+            <TheCard />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div bg-cool p-xl>
     <HighlyDiversifiedTypography />
