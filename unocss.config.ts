@@ -33,7 +33,7 @@ export default defineConfig({
       'txt-black': 'text-#707070',
       'txt-blue': 'text-#509AEB',
       'txt-line': 'text-#0856A2',
-      'bg-line': 'bg-#0856A2',
+      'bg-cool': 'bg-#212D37',
     },
   ],
   presets: [

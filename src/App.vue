@@ -3,6 +3,9 @@
   <div bg-white p-xl>
     <WhoWeAreTypography />
   </div>
+  <div bg-cool p-xl>
+    <HighlyDiversifiedTypography />
+  </div>
   <div bg-white p-xl>
     <TheCard />
   </div>

@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <div txt-blue text-29px mb-5px relative font-bold>
+    <div txt-blue text-29px mb-5px relative font-700>
       <h2 mb-8px>
         WHO WE ARE
       </h2>
