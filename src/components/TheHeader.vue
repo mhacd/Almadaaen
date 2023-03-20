@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import logo from '~/assets/logo.svg'
+import saudiTree from '~/assets/saudi-tree.svg'
 </script>
 
 <template>
@@ -41,7 +42,9 @@ import logo from '~/assets/logo.svg'
           En
           <span absolute h-1px rounded w-full bottom-0 bg-white left-0 scale-x-120 />
         </div>
-        <div color-white i-carbon-tree />
+        <div>
+          <img w-28px :src="saudiTree" alt="img">
+        </div>
       </div>
     </div>
   </div>

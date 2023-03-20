@@ -1,7 +1,5 @@
 <template>
-  <HeroBg>
-    <HeroBgContent />
-  </HeroBg>
+  <HeroLayout />
   <div bg-white p-xl>
     <TheCard />
   </div>

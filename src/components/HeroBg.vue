@@ -8,7 +8,7 @@ import heroBg from '~/assets/hero-bg.png'
       <img r-layer object-cover :src="heroBg">
       <div a-layer class="colored" />
     </div>
-    <div r-layer>
+    <div r-layer pt-79px>
       <slot />
     </div>
   </div>
