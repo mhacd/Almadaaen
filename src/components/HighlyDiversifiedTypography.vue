@@ -3,6 +3,11 @@
 
 <template>
   <div>
-    text
+    <div text-white font-700>
+      Highly diversified
+    </div>
+    <div text-dark-blue font-700>
+      Investment Sectors
+    </div>
   </div>
 </template>

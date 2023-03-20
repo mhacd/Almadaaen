@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <div txt-blue text-29px mb-5px relative font-700>
+    <div text-blue text-29px mb-5px relative font-700>
       <h2 mb-8px>
         WHO WE ARE
       </h2>
@@ -19,7 +19,7 @@
     <div flex fi mt-10px>
       <div text-12px font-bold>
         Read More
-      </div> <div ms-20px text-16px txt-line font-bold i-carbon-arrow-right />
+      </div> <div ms-20px text-16px text-dark-blue font-bold i-carbon-arrow-right />
     </div>
   </div>
 </template>
