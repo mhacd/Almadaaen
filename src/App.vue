@@ -1,13 +1,13 @@
 <template>
   <HeroLayout />
-  <div bg-white>
-    <div max-w-1400px mx-auto px-lg>
+  <div bg-white py-70px>
+    <div class="2xl:max-w-1600px" mx-auto px-54px>
       <div flex py-40px>
-        <div w="30%">
+        <div class="2xl:w-[30%] w-[35%] ">
           <WhoWeAreTypography />
         </div>
         <div flex-1>
-          <div flex fb w-full gap-30px>
+          <div flex w-full justify-end class="2xl:gap-70px gap-12px">
             <TheCard />
             <TheCard />
             <TheCard />
