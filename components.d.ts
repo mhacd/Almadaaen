@@ -10,8 +10,6 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     CoolSection: typeof import('./src/components/CoolSection.vue')['default']
-    diversifiedTypography: typeof import('./src/components/HighlyDiversifiedTypography.vue')['default']
-    Hero: typeof import('./src/components/Hero.vue')['default']
     HeroBg: typeof import('./src/components/HeroBg.vue')['default']
     HeroBgContent: typeof import('./src/components/HeroBgContent.vue')['default']
     HeroLayout: typeof import('./src/components/HeroLayout.vue')['default']
