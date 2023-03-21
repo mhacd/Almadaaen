@@ -3,7 +3,7 @@ import union from '~/assets/union.svg'
 </script>
 
 <template>
-  <div bg-white py-70px>
+  <div bg-white py-70px overflow-hidden>
     <div class="2xl:max-w-1600px" mx-auto px-54px>
       <div flex py-40px>
         <div class="2xl:w-[30%] w-[35%] ">

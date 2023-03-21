@@ -1,10 +1,16 @@
 <script setup lang="ts">
 import logo from '~/assets/logo-modn-white.svg'
+import union from '~/assets/union-white.svg'
 </script>
 
 <template>
-  <div bg-cool p-xl>
-    <div class="2xl:max-w-1600px" mx-auto px-54px>
+  <div bg-cool p-xl relative overflow-hidden>
+    <div relative w-full py-1>
+      <div absolute z-1 top-40px right--250px>
+        <img w-500px :src="union" alt="union">
+      </div>
+    </div>
+    <div relative z-2 class="2xl:max-w-1600px" mx-auto px-54px>
       <div>
         <div mb-18px>
           <img w-95px :src="logo" alt="logo">
