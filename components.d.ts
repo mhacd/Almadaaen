@@ -9,6 +9,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    CoolSection: typeof import('./src/components/CoolSection.vue')['default']
     diversifiedTypography: typeof import('./src/components/HighlyDiversifiedTypography.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']
     HeroBg: typeof import('./src/components/HeroBg.vue')['default']
@@ -24,6 +25,7 @@ declare module '@vue/runtime-core' {
     TheHeader: typeof import('./src/components/TheHeader.vue')['default']
     TheImageCard: typeof import('./src/components/TheImageCard.vue')['default']
     TheInput: typeof import('./src/components/TheInput.vue')['default']
+    WhiteSection: typeof import('./src/components/WhiteSection.vue')['default']
     WhoWeAreTypography: typeof import('./src/components/WhoWeAreTypography.vue')['default']
   }
 }
