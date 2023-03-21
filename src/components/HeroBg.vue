@@ -8,16 +8,8 @@ import heroBg from '~/assets/hero-bg.png'
       <img r-layer object-cover :src="heroBg">
       <div a-layer class="colored" />
     </div>
-    <div a-layer>
-      <div full bg-red />
-    </div>
-    <div a-layer>
-      <div full flex>
-        <div w="50%" />
-        <div w="50%">
-          <div full :style="{ 'backdrop-filter': 'blur(6px)' }" bg="#ffffff11" />
-        </div>
-      </div>
+    <div r-layer pt-79px>
+      <slot />
     </div>
   </div>
 </template>
