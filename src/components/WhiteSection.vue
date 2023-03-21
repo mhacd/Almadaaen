@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import union from '~/assets/union.svg'
 </script>
 
 <template>
@@ -11,9 +11,24 @@
         </div>
         <div flex-1>
           <div flex w-full justify-end class="2xl:gap-70px gap-12px">
-            <TheCard />
-            <TheCard />
-            <TheCard />
+            <div relative>
+              <div absolute left="-56px" top="-56px">
+                <img :src="union" alt="union svg">
+              </div>
+              <TheCard />
+            </div>
+            <div relative>
+              <div absolute w-full flex fc top="-56px">
+                <img :src="union" alt="union svg">
+              </div>
+              <TheCard />
+            </div>
+            <div relative>
+              <div absolute right="-56px" top="-56px">
+                <img :src="union" alt="union svg">
+              </div>
+              <TheCard />
+            </div>
           </div>
         </div>
       </div>
