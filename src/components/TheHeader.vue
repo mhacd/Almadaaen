@@ -12,13 +12,13 @@ import saudiTree from '~/assets/saudi-tree.svg'
         </div>
         <div w="100%" flex justify-around>
           <div>
-            <Link text="Home" :active="true" />
+            <Link path="/" text="Home" :active="true" />
           </div>
           <div>
-            <Link text="GROUP STRUCTURE" />
+            <Link path="/group-structure" text="GROUP STRUCTURE" />
           </div>
           <div>
-            <Link text="BUSINESS SECTORS" />
+            <Link path="/business-sectors" text="BUSINESS SECTORS" />
           </div>
         </div>
       </div>
@@ -26,16 +26,16 @@ import saudiTree from '~/assets/saudi-tree.svg'
       <div flex flex-1 fi>
         <div w="100%" flex justify-around>
           <div>
-            <Link text="ABOUT US" />
+            <Link path="/about-us" text="ABOUT US" />
           </div>
           <div>
-            <Link text="GALLERY" />
+            <Link path="/gallery" text="GALLERY" />
           </div>
           <div>
-            <Link text="CAREERS" />
+            <Link path="/careers" text="CAREERS" />
           </div>
           <div>
-            <Link text="CONTACT US" />
+            <Link path="/contact-us" text="CONTACT US" />
           </div>
         </div>
         <div color-white me-29px relative>
