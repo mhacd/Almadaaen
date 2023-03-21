@@ -7,9 +7,7 @@
       <TheHeader />
     </div>
     <div>
-      <HeroBg>
-        <HeroBgContent />
-      </HeroBg>
+      <HeroBg />
     </div>
   </div>
 </template>
