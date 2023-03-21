@@ -10,7 +10,7 @@ import saudiTree from '~/assets/saudi-tree.svg'
         <div me-39px>
           <img :src="logo" alt="">
         </div>
-        <div w="100%" flex justify-around>
+        <div w="100%" flex justify-around max-w-500px>
           <div>
             <Link path="/" text="Home" :active="true" />
           </div>
@@ -23,8 +23,8 @@ import saudiTree from '~/assets/saudi-tree.svg'
         </div>
       </div>
       <div w-230px text-center />
-      <div flex flex-1 fi>
-        <div w="100%" flex justify-around>
+      <div flex flex-1 fi justify-end>
+        <div w="100%" flex justify-around max-w-600px>
           <div>
             <Link path="/about-us" text="ABOUT US" />
           </div>
