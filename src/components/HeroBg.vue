@@ -1,5 +1,8 @@
 <script setup lang="ts">
-import { change } from '~/state/state'
+import { change, inc, red } from '~/state/state'
+import arLeft from '~/assets/arrow-left.svg'
+import arRight from '~/assets/arrow-right.svg'
+import arDown from '~/assets/arrow-down-light.svg'
 // import heroBg from '~/assets/hero-bg.png'
 import visionLogoDark from '~/assets/vision-dark.svg'
 </script>
@@ -56,11 +59,47 @@ import visionLogoDark from '~/assets/vision-dark.svg'
         </div>
       </div>
     </div>
+    <div a-layer pt-79px event-pointer-none>
+      <div full flex items-end>
+        <div flex w-full fb px-2xl py-2xl>
+          <div cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="inc()">
+            <img w-14px :src="arLeft" alt="">
+          </div>
+          <div inline-flex fcc rounded-full border-1 border-white w-40px h-40px>
+            <img class="arr-down" w-20px translate-y--10px :src="arDown" alt="">
+          </div>
+          <div cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="red()">
+            <img w-14px :src="arRight" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style>
 .colored {
   background: linear-gradient(204.65deg, rgba(41, 55, 68, 0) 15.73%, #212D37 96.38%);
+}
+
+.arr-down {
+  animation-name: arr-down;
+   animation-delay: 3s;
+  animation-duration: 1.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes arr-down {
+  0% {
+    transform:translateY(-12px)
+  }
+  30% {
+    transform:translateY(-5px)
+  }
+
+  100% {
+    transform:translateY(-12px)
+  }
+
 }
 </style>

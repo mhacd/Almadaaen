@@ -14,3 +14,9 @@ export const idx = ref(0)
 export function change() {
   idx.value = Math.floor(Math.random() * 4)
 }
+export function inc() {
+  (idx.value + 1) === list.value.length ? idx.value = 0 : idx.value++
+}
+export function red() {
+  (idx.value - 1) < 0 ? idx.value = list.value.length - 1 : idx.value--
+}
