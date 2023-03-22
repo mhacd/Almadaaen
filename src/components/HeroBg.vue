@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import heroBg from '~/assets/hero-bg.png'
+import { change } from '~/state/state'
+// import heroBg from '~/assets/hero-bg.png'
 import visionLogoDark from '~/assets/vision-dark.svg'
 </script>
 
 <template>
-  <div h-screen layers>
+  <div h-screen layers @dblclick="change()">
     <div a-layer pt-79px>
-      <img r-layer object-cover :src="heroBg">
+      <!-- <img r-layer object-cover :src="heroBg"> -->
+      <MakeCarousel />
       <div a-layer class="colored" />
     </div>
     <div r-layer pt-79px>
@@ -33,7 +35,7 @@ import visionLogoDark from '~/assets/vision-dark.svg'
               </div>
               <div flex-1 flex justify-end>
                 <div mb-10px>
-                  <img :src="visionLogoDark">
+                  <img :src="visionLogoDark" select-none>
                 </div>
               </div>
             </div>
