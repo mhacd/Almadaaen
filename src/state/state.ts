@@ -6,9 +6,9 @@ import heroBg from '~/assets/hero-bg.png'
 
 export const list = ref([
   heroBg,
-  'http://imageupload.mhacd.com/uploads/025634Group%20174567.jpg',
-  'http://imageupload.mhacd.com/uploads/025706Group%20174568.jpg',
-  'http://imageupload.mhacd.com/uploads/025752Group%20174569.jpg',
+  'https://raw.githubusercontent.com/moHaHa/public/images/images/1.jpg',
+  'https://raw.githubusercontent.com/moHaHa/public/images/images/2.jpg',
+  'https://raw.githubusercontent.com/moHaHa/public/images/images/3.jpg',
 ])
 export const idx = ref(0)
 export function change() {
