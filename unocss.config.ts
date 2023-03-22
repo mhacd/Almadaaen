@@ -24,6 +24,8 @@ export default defineConfig({
       'r-layer': 'relative w-full h-full',
       'a-layer': 'absolute w-full h-full top-0 left-0',
       'r-layer-content': 'relative ',
+      'vis': 'pointer-events-auto',
+      'in-vis': 'pointer-events-none',
     },
 
     ['btn', 'px-4 py-1 rounded inline-block bg-teal-600 text-white cursor-pointer hover:bg-teal-700 disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50'],

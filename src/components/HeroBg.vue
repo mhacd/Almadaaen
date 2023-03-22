@@ -59,17 +59,34 @@ import visionLogoDark from '~/assets/vision-dark.svg'
         </div>
       </div>
     </div>
-    <div a-layer pt-79px event-pointer-none>
+    <div a-layer pt-79px in-vis>
       <div full flex items-end>
-        <div flex w-full fb px-2xl py-2xl>
-          <div cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="inc()">
+        <div flex w-full fb items-end px-2xl>
+          <div mb-25px vis cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="inc()">
             <img w-14px :src="arLeft" alt="">
           </div>
-          <div inline-flex fcc rounded-full border-1 border-white w-40px h-40px>
+          <div mb-25px vis inline-flex fcc rounded-full border-1 border-white w-40px h-40px>
             <img class="arr-down" w-20px translate-y--10px :src="arDown" alt="">
           </div>
-          <div cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="red()">
-            <img w-14px :src="arRight" alt="">
+          <div flex flex-col items-end>
+            <div>
+              <div rounded-full border="1 white" w-36px h-36px flex fc mb-30px>
+                <span text="white xl " font-bold translate-y-4px translate-x-3px>1</span>
+              </div>
+              <div w-36px flex fc mb-70px>
+                <div w-4px bg-white relative h-150px op-80 rounded-full>
+                  <div absolute w-2px bg-white relative h-200px left-1px rounded-full op-100 />
+                </div>
+              </div>
+            </div>
+            <div vis cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="red()">
+              <img w-14px :src="arRight" alt="">
+            </div>
+            <div>
+              <div w-36px flex fc>
+                <div w-1px bg-white relative h-25px />
+              </div>
+            </div>
           </div>
         </div>
       </div>
