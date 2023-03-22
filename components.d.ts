@@ -14,6 +14,7 @@ declare module '@vue/runtime-core' {
     HeroLayout: typeof import('./src/components/HeroLayout.vue')['default']
     HighlyDiversifiedTypography: typeof import('./src/components/HighlyDiversifiedTypography.vue')['default']
     Link: typeof import('./src/components/Link.vue')['default']
+    Logo: typeof import('./src/components/Logo/index.vue')['default']
     MakeCarousel: typeof import('./src/components/MakeCarousel.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

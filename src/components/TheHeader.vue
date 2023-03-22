@@ -4,8 +4,8 @@ import saudiTree from '~/assets/saudi-tree.svg'
 </script>
 
 <template>
-  <div p-xl bg-header>
-    <div flex fb>
+  <div px-xl bg-header h-79px class="2xl:h-" flex>
+    <div flex fb w-full>
       <div flex flex-1 fi>
         <div me-39px>
           <img :src="logo" alt="">
@@ -22,7 +22,58 @@ import saudiTree from '~/assets/saudi-tree.svg'
           </div>
         </div>
       </div>
-      <div w-230px text-center />
+      <div min-w-240px>
+        <div layers full>
+          <div a-layer>
+            <div h-79px flex fcc>
+              <div relative flex fcc>
+                <div absolute flex fc>
+                  <div pt-42px>
+                    <div w-140px h-140px rounded-full bg-white op-50 />
+                  </div>
+                </div>
+                <div absolute flex fc>
+                  <div pt-42px>
+                    <div w-170px h-170px rounded-full bg-white op-50 />
+                  </div>
+                </div>
+                <div absolute flex fc>
+                  <div pt-42px>
+                    <div w-200px h-200px rounded-full bg-white op-50 />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div a-layer bg-green>
+            <div h-79px flex fcc>
+              <div relative flex fcc>
+                <div absolute flex fc>
+                  <div pt-67px>
+                    <Logo color="" :width="70" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div r-layer bg-header>
+            <div h-79px overflow-hidden flex fcc>
+              <div relative flex fcc>
+                <div absolute flex fc>
+                  <div pt-42px>
+                    <div w-200px h-200px rounded-full bg="#2E2F37" :style="{ 'box-shadow': '0 -3px 21px #ffffff21' }" />
+                  </div>
+                </div>
+                <div absolute flex fc>
+                  <div pt-67px>
+                    <Logo color="white" :width="70" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div flex flex-1 fi justify-end>
         <div w="100%" flex justify-around max-w-600px>
           <div>
