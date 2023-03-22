@@ -15,7 +15,7 @@ import visionLogoDark from '~/assets/vision-dark.svg'
       <div full flex>
         <div w="50%" />
         <div w="50%">
-          <div full :style="{ 'backdrop-filter': 'blur(6px)' }" bg="#ffffff11" />
+          <div full :style="{ 'backdrop-filter': 'blur(6px)' }" bg="#ffffff33" />
         </div>
       </div>
     </div>
@@ -47,7 +47,7 @@ import visionLogoDark from '~/assets/vision-dark.svg'
                 </div>
               </div>
               <div flex-1 flex justify-end>
-                <div max-w-400px text-end>
+                <div max-w-400px text-end text="#222">
                   Whether you are a client, a partner, a career seeker, or an interested reader we would like to take this opportunity to welcome you to our website. We trust that it will tell you everything you need to
                 </div>
               </div>

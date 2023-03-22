@@ -9,7 +9,7 @@
     <div mx-auto text-center text-blue text-21px pb-30px font-bold>
       Vision
     </div>
-    <div max-w-214px mx-auto text-center txt-black all-break-words class="md:text-12px lg:text-16px" :style="{ 'lineHeight': '27px', 'word-break': 'break-all' }">
+    <div max-w-214px mx-auto text-center text="#222" all-break-words class="md:text-12px lg:text-16px" :style="{ 'lineHeight': '27px', 'word-break': 'break-all' }">
       Based on the strong principles of our Founders, we aim to be a leading diversified group operating world-wide
     </div>
   </div>
