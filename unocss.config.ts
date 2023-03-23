@@ -39,6 +39,7 @@ export default defineConfig({
       'bg-card': 'bg-#E5E5E5',
       'txt-dark': 'text-#707070',
       'bg-cool': 'bg-#212D37',
+      'border-cool': 'border-#212D37',
     },
   ],
   presets: [

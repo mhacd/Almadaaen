@@ -74,8 +74,8 @@ import visionLogoDark from '~/assets/vision-dark.svg'
                 <span text="white xl " font-bold translate-y-4px translate-x-3px>1</span>
               </div>
               <div w-36px flex fc mb-70px>
-                <div w-4px bg-white relative h-150px op-80 rounded-full>
-                  <div absolute w-2px bg-white relative h-200px left-1px rounded-full op-100 />
+                <div w-3px bg-white relative h-150px op-86 rounded-full>
+                  <div absolute w-1px bg-white relative h-200px left-1px rounded-full op-100 />
                 </div>
               </div>
             </div>
