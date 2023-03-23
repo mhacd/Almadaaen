@@ -62,8 +62,13 @@ import visionLogoDark from '~/assets/vision-dark.svg'
     <div a-layer pt-79px in-vis>
       <div full flex items-end>
         <div flex w-full fb items-end px-2xl>
-          <div mb-25px vis cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="inc()">
-            <img w-14px :src="arLeft" alt="">
+          <div relative vis cursor-pointer select-none @click="inc()">
+            <div absolute full flex fcc text="white 12px" pb-25px>
+              <span translate-x-54px>PREVIOUS</span>
+            </div>
+            <div mb-25px inline-flex fcc rounded-full border-2 border-white w-36px h-36px>
+              <img w-14px :src="arLeft" alt="">
+            </div>
           </div>
           <div mb-25px vis inline-flex fcc rounded-full border-1 border-white w-40px h-40px>
             <img class="arr-down" w-20px translate-y--10px :src="arDown" alt="">
@@ -79,8 +84,13 @@ import visionLogoDark from '~/assets/vision-dark.svg'
                 </div>
               </div>
             </div>
-            <div vis cursor-pointer inline-flex fcc rounded-full border-2 border-white w-36px h-36px @click="red()">
-              <img w-14px :src="arRight" alt="">
+            <div relative cursor-pointer vis select-none @click="red()">
+              <div absolute full flex fcc text="white 12px" mx-3>
+                <span translate-x--54px>Next</span>
+              </div>
+              <div inline-flex fcc rounded-full border-2 border-white w-36px h-36px>
+                <img w-14px :src="arRight" alt="">
+              </div>
             </div>
             <div>
               <div w-36px flex fc>
