@@ -24,7 +24,7 @@ import visionLogoDark from '~/assets/vision-dark.svg'
     </div>
     <div a-layer pt-79px>
       <div full flex flex-col>
-        <div pt-110px />
+        <div pt-110px class="2xl:pt-190px" />
         <div class="2xl:max-w-1600px " w-full mx-auto px-54px>
           <div w-full pe-120px>
             <div w-full flex items-end>
