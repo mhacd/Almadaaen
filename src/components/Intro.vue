@@ -21,17 +21,17 @@ function toggle() {
                 <div relative flex fcc>
                   <div absolute flex fc>
                     <div pt-42px>
-                      <div w-140px h-140px rounded-full bg-white op-50 />
+                      <div w-140px h-140px rounded-full bg-white op-0 />
                     </div>
                   </div>
                   <div absolute flex fc>
                     <div pt-42px>
-                      <div w-170px h-170px rounded-full bg-white op-50 />
+                      <div w-170px h-170px rounded-full bg-white op-0 />
                     </div>
                   </div>
                   <div absolute flex fc>
                     <div pt-42px>
-                      <div w-200px h-200px rounded-full bg-white op-50 />
+                      <div w-200px h-200px rounded-full op-100 bg="#2E2F37" :style="{ 'box-shadow': '0 -3px 21px #ffffff21' }" />
                     </div>
                   </div>
                 </div>
@@ -42,7 +42,7 @@ function toggle() {
                 <div relative flex fcc>
                   <div absolute flex fc>
                     <div pt-67px class="set-md">
-                      <Logo color="" :width="70" />
+                      <Logo color="white" :width="70" />
                     </div>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ function toggle() {
         <div flex-1 />
       </div>
     </div>
-    <div v-if="anime" top-79px bottom-0 left-0 right-0 fixed z-999999 overflow-hidden>
+    <div v-if="anime" top-79px bottom-0 left-0 right-0 fixed z-999999 overflow-hidden bg-cool>
       <div full flex fcc>
         <div flex-1 />
         <div>
@@ -79,17 +79,17 @@ function toggle() {
                 <div relative flex fcc>
                   <div absolute flex fc>
                     <div pt-42px>
-                      <div w-140px h-140px rounded-full bg-white op-50 />
+                      <div class="cr cr--3" w-140px h-140px rounded-full bg-white op-50 />
                     </div>
                   </div>
                   <div absolute flex fc>
                     <div pt-42px>
-                      <div w-170px h-170px rounded-full bg-white op-50 />
+                      <div class="cr cr--2" w-170px h-170px rounded-full bg-white op-50 />
                     </div>
                   </div>
                   <div absolute flex fc>
                     <div pt-42px>
-                      <div w-200px h-200px rounded-full bg-white op-50 />
+                      <div class="cr cr--1" w-200px h-200px rounded-full bg-white op-50 />
                     </div>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ function toggle() {
                 <div relative flex fcc>
                   <div absolute flex fc>
                     <div pt-67px class="set-md">
-                      <Logo color="" :width="70" />
+                      <Logo color="" class="cr cr--logo" :width="70" />
                     </div>
                   </div>
                 </div>
@@ -235,11 +235,11 @@ function toggle() {
 }
 </style>
 
-<!-- <style>
+<style>
 .to-fade {
   animation-name: to-fade;
   animation-duration: .5s;
-  animation-delay: 2.5s;
+  animation-delay: 2.7s;
   animation-timing-function: ease-in;
   animation-fill-mode: both;
 }
@@ -248,4 +248,4 @@ function toggle() {
     opacity: 0;
   }
 }
-</style> -->
+</style>
