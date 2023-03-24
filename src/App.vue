@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const intro = ref(true)
-setTimeout(() => {
-  intro.value = false
-}, 2800)
+// setTimeout(() => {
+//   intro.value = false
+// }, 2800)
 </script>
 
 <template>
