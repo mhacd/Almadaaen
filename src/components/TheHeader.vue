@@ -8,7 +8,7 @@ import saudiTree from '~/assets/saudi-tree.svg'
     <div flex fb w-full>
       <div flex flex-1 fi>
         <div me-39px>
-          <img :src="logo" alt="">
+          <img :src="logo" alt="" data-aos="fade" transition-delay-3800 data-aos-duration="3000">
         </div>
         <div w="100%" flex justify-around max-w-500px>
           <div>

@@ -30,19 +30,21 @@ import visionLogoDark from '~/assets/vision-dark.svg'
             <div w-full flex items-end>
               <div flex-1>
                 <div>
-                  <button bg="#fff6" px-3 py-2 backdrop-blur-sm rounded-full text-white hover:shadow>
+                  <button data-aos="fade-right" transition-delay-3400 data-aos-duration="1000" bg="#fff6" px-3 py-2 backdrop-blur-sm rounded-full text-white hover:shadow>
                     Building award winning properties across London
                   </button>
                 </div>
-                <div text-white font-bold class="xl:text-60px 2xl:text-80px" text-100px v-html="'Let’s find <br>yours Dream..'" />
+                <div data-aos="fade-down" transition-delay-3300 data-aos-duration="1000">
+                  <div text-white font-bold class="xl:text-60px 2xl:text-80px" text-100px v-html="'Let’s find <br>yours Dream..'" />
+                </div>
               </div>
               <div flex-1 flex justify-end>
-                <div mb-10px>
+                <div mb-10px data-aos="fade" transition-delay-3800 data-aos-duration="3000">
                   <img :src="visionLogoDark" select-none>
                 </div>
               </div>
             </div>
-            <div mt-4 w-full bg-gradient="to-r from-white to-black" py-2px />
+            <div data-aos="flip-right" mt-4 w-full bg-gradient="to-r from-white to-black" py-2px />
             <div w-full flex mt-7>
               <div flex-1>
                 <div text-white>
@@ -50,7 +52,7 @@ import visionLogoDark from '~/assets/vision-dark.svg'
                 </div>
               </div>
               <div flex-1 flex justify-end>
-                <div max-w-400px text-end text="#222">
+                <div max-w-400px text-end text="#222" data-aos="fade-up" transition-delay-3600 data-aos-duration="1000">
                   Whether you are a client, a partner, a career seeker, or an interested reader we would like to take this opportunity to welcome you to our website. We trust that it will tell you everything you need to
                 </div>
               </div>
