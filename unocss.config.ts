@@ -40,6 +40,7 @@ export default defineConfig({
       'txt-dark': 'text-#707070',
       'bg-cool': 'bg-#212D37',
       'border-cool': 'border-#212D37',
+      'text-cool': 'text-#212D37',
     },
   ],
   presets: [

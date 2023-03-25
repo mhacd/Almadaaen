@@ -4,12 +4,12 @@
 <template>
   <div>
     <div text-blue text-29px mb-5px relative font-700>
-      <h2 mb-8px>
+      <h2 mb-8px data-aos="fade-down" data-aos-duration="800">
         WHO WE ARE
       </h2>
       <span block w-100px h-3px rounded-full ms-3px bg="dark-blue" />
     </div>
-    <div leading-33px max-w-400px text-black>
+    <div leading-33px max-w-400px text-black data-aos="fade-right" data-aos-duration="800">
       Al Modon Al Arabia Holding provides an
       umbrella for a diversified range of
       self-innovated, forward thinking and sustainable

@@ -17,7 +17,6 @@ declare module '@vue/runtime-core' {
     Link: typeof import('./src/components/Link.vue')['default']
     Logo: typeof import('./src/components/Logo/index.vue')['default']
     MakeCarousel: typeof import('./src/components/MakeCarousel.vue')['default']
-    Page: typeof import('./src/components/Page.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TheCard: typeof import('./src/components/TheCard.vue')['default']

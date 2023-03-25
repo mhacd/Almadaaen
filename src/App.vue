@@ -20,7 +20,7 @@ onMounted(() => {
         <button
           btn data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
-          data-aos-delay="4000"
+          transition-delay-3800
         >
           aos
         </button>

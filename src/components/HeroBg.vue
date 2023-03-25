@@ -44,10 +44,10 @@ import visionLogoDark from '~/assets/vision-dark.svg'
                 </div>
               </div>
             </div>
-            <div data-aos="flip-right" mt-4 w-full bg-gradient="to-r from-white to-black" py-2px />
+            <div data-aos="flip-right" transition-delay-2800 data-aos-duration="800" mt-4 w-full bg-gradient="to-r from-white to-black" py-2px />
             <div w-full flex mt-7>
               <div flex-1>
-                <div text-white>
+                <div text-white data-aos="fade-up" transition-delay-2700 data-aos-duration="800">
                   Building award winning properties across London
                 </div>
               </div>
@@ -77,12 +77,12 @@ import visionLogoDark from '~/assets/vision-dark.svg'
           </div>
           <div flex flex-col items-end>
             <div>
-              <div rounded-full border="1 white" w-36px h-36px flex fc mb-30px>
+              <div rounded-full border="1 white" w-36px h-36px flex fc mb-30px data-aos="fade" transition-delay-4700 data-aos-duration="500">
                 <span text="white xl " font-bold translate-y-4px translate-x-3px>1</span>
               </div>
-              <div w-36px flex fc mb-70px>
-                <div w-3px bg-white relative h-150px op-86 rounded-full>
-                  <div absolute w-1px bg-white relative h-200px left-1px rounded-full op-100 />
+              <div w-36px flex fc mb-70px min-h-100px>
+                <div w-3px bg-white relative h-150px op-86 rounded-full class="line-1">
+                  <div absolute w-1px bg-white relative h-200px class="line-2" left-1px rounded-full op-100 />
                 </div>
               </div>
             </div>
@@ -128,6 +128,38 @@ import visionLogoDark from '~/assets/vision-dark.svg'
 
   100% {
     transform:translateY(-12px)
+  }
+
+}
+.line-1 {
+  animation-name: line-1;
+  animation-duration: .5s;
+  animation-delay: 4s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+@keyframes line-1 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100px;
+  }
+
+}
+.line-2 {
+  animation-name: line-2;
+  animation-duration: .5s;
+  animation-delay: 4s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+@keyframes line-2 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 150px;
   }
 
 }

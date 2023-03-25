@@ -14,7 +14,7 @@ import img4 from '~/assets/img4.png'
 <template>
   <div bg-cool p-xl relative overflow-hidden>
     <div relative w-full py-1>
-      <div absolute z-1 top-40px right--250px>
+      <div absolute z-1 top-40px right--250px data-aos="zoom-in">
         <img w-500px :src="union" alt="union">
       </div>
     </div>

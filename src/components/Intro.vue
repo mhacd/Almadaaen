@@ -9,7 +9,7 @@ function toggle() {
 </script>
 
 <template>
-  <div class="to-fade" w-screen fixed z-999 h-screen bg-cool op-100 @dblclick="toggle">
+  <div in-vis class="to-fade" w-screen fixed z-999 h-screen bg-cool op-100 @dblclick="toggle">
     <div v-if="anime" class="an-header" bg-header h-79px fixed z-9999 flex w-full fb />
     <div v-if="anime" top-79px bottom-0 left-0 right-0 fixed z-99999>
       <div full flex fcc>
